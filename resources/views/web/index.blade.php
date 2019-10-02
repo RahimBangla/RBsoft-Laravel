@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>:: Oculux :: Bootstrap 4 Admin Template</title>
+<title>RBsoft Technology, Inc.</title>
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 
 <!-- Core css file -->
