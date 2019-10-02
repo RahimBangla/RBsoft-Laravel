@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-###Contibute By Md. Abdur Rahim Sarkar (https://rahimbangla.me)
+### Contibute By Md. Abdur Rahim Sarkar (https://rahimbangla.me)
 
 ## About Laravel
 
@@ -30,7 +30,7 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
 ## Contributing
-#Contibute By Md. Abdur Rahim Sarkar (https://rahimbangla.me)
+# Contibute By Md. Abdur Rahim Sarkar (https://rahimbangla.me)
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
@@ -41,4 +41,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-#Contibute By Md. Abdur Rahim Sarkar (https://rahimbangla.me)
+# Contibute By Md. Abdur Rahim Sarkar (https://rahimbangla.me)
