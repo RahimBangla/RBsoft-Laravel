@@ -61,7 +61,7 @@
                     </div>
                     <div class="form-group">
                         <label for="password" class="control-label sr-only">{{ __('Password') }}</label>
-                        <input type="password" id="password" value="password" placeholder="Password" class="form-control round @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                        <input type="password" id="password" value="" placeholder="Password" class="form-control round @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
                         @error('password')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>

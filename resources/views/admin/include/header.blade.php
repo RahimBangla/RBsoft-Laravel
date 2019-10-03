@@ -10,12 +10,12 @@
 <meta name="author" content="GetBootstrap, design by: puffintheme.com">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <!-- VENDOR CSS -->
-<link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="../assets/vendor/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="../assets/vendor/animate-css/vivify.min.css">
-<link rel="stylesheet" href="../assets/vendor/c3/c3.min.css"/>
+<link rel="stylesheet" href="{{ URL::asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ URL::asset('assets/vendor/font-awesome/css/font-awesome.min.css') }}">
+<link rel="stylesheet" href="{{ URL::asset('assets/vendor/animate-css/vivify.min.css') }}">
+<link rel="stylesheet" href="{{ URL::asset('assets/vendor/c3/c3.min.css') }}"/>
 <!-- MAIN CSS -->
-<link rel="stylesheet" href="assets/css/site.min.css">
+<link rel="stylesheet" href="{{ URL::asset('assets/css/site.min.css') }}">
 </head>
 <body class="theme-cyan font-montserrat">
 <!-- Page Loader -->
