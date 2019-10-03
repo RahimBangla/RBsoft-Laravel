@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\contacs;
 use Illuminate\Http\Request;
+use PhpParser\Node\Expr\New_;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -25,8 +28,33 @@ class HomeController extends Controller
     {
         return view('admin/home');
     }
-    public function users()
+    public function contacs()
     {
-        return view('admin/users');
+        $contacs = DB::table('contacs')->get();
+        // dd($contacs);
+        return view('admin.contacs', ['contacs' => $contacs]);
+
+    }
+    public function getContacs(Request $request)
+    {
+        // print_r($request->all());
+        print_r($request->input('name'));
+    }
+    public function postContacs(Request $request)
+    {
+        // dd($request->all());
+        $contac = new contacs();
+        $contac->name = $request->input('name');
+        $contac->email = $request->input('email');
+        $contac->subject = $request->input('subject');
+        $contac->message = $request->input('message');
+
+        $contac->save();
+        return redirect()->back();
+    }
+    public function delete($id)
+    {
+        Student::where('id', $id)->delete();
+        return redirect()->back();
     }
 }

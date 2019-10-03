@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="{{ URL::asset('assets/vendor/font-awesome/css/font-awesome.min.css') }}">
 <link rel="stylesheet" href="{{ URL::asset('assets/vendor/animate-css/vivify.min.css') }}">
 <link rel="stylesheet" href="{{ URL::asset('assets/vendor/c3/c3.min.css') }}"/>
+<link rel="stylesheet" href="{{ URL::asset('assets/vendor/sweetalert/sweetalert.css') }}"/>
 <!-- MAIN CSS -->
 <link rel="stylesheet" href="{{ URL::asset('assets/css/site.min.css') }}">
 </head>

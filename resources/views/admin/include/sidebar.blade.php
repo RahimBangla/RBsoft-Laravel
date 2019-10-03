@@ -614,7 +614,7 @@
                     <li><a href="#"><i class="icon-diamond"></i><span>Crypto Coin</span></a></li>
                     <li><a href="#"><i class="icon-rocket"></i><span>HRMS System</span></a></li>
                     <li><a href="#"><i class="icon-badge"></i><span>Job Portal</span></a></li>
-                    <li><a href="#"><i class="icon-cursor"></i><span>Landing Page</span></a></li>
+                    <li><a href="/home/contacs"><i class="icon-cursor"></i><span>Contacts</span></a></li>
                     <li class="header">App</li>
                     <li><a href="../documentation/index.html"><i class="icon-doc"></i><span>Documentation</span></a></li>
                 </ul>

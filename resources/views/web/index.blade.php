@@ -531,7 +531,7 @@
             <div class="col-md-6 col-lg-8 col-sm-12">
                 <div class="contact-block">
                     <h2>Contact Form</h2>
-                    <form id="contactForm" method="POST" action="/contacs">
+                    <form method="POST" action="{{url('postcontacs')}}">
                         @csrf
                         <div class="row">
                             <div class="col-md-4">
@@ -618,7 +618,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p>Copyright © 2018 Oculux All Right Reserved</p>
+                <p>Copyright © 2018 RBsoft All Right Reserved</p>
             </div>
         </div>
     </div>
