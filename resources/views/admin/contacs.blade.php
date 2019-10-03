@@ -44,7 +44,12 @@
                                         <span>{{$contac->subject}}</span>
                                     </td>
                                     <td>
-                                        <button class="btn btn-primary btn-sm js-sweetalert" data-type="confirm" action="/delete/{{$contac->id}}" method="post">Delete</button>
+                                            <form action="{{ url('delete' , $contac->id ) }}" method="POST">
+                                                    {{ csrf_field() }}
+                                                    {{ method_field('DELETE') }}
+                                                    <button class="btn btn-primary btn-sm">Delete</button>
+                                                </form>
+
                                         <button class="btn btn-success btn-sm" data-toggle="modal" data-target=".bd-example-modal-lg{{$contac->id}}">Message</button>
                                         {{-- modal --}}
                                         <div class="modal fade bd-example-modal-lg{{$contac->id}}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">

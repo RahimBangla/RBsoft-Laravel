@@ -54,7 +54,9 @@ class HomeController extends Controller
     }
     public function delete($id)
     {
-        Student::where('id', $id)->delete();
+        $contac = contacs::find($id);
+        $contac->delete();
+
         return redirect()->back();
     }
 }
