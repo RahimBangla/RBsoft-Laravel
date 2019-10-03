@@ -49,6 +49,8 @@
                                                     {{ method_field('DELETE') }}
                                                     <button class="btn btn-primary btn-sm">Delete</button>
                                                 </form>
+                                            </td>
+                                            <td>
 
                                         <button class="btn btn-success btn-sm" data-toggle="modal" data-target=".bd-example-modal-lg{{$contac->id}}">Message</button>
                                         {{-- modal --}}
