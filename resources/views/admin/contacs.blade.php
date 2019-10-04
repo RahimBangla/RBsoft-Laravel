@@ -58,13 +58,35 @@
                                                 <div class="modal-dialog modal-lg">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                            <h5 class="modal-title h4" id="myLargeModalLabel">{{$contac->email}} ({{$contac->name}})</h5>
+                                                            <h5 class="modal-title h4" id="myLargeModalLabel">
+                                                                <div class="detail-header">
+                                                                    <div class="media">
+                                                                        <div class="float-left">
+
+                                                                        </div>
+                                                                        <div class="media-body">
+                                                                            <p class="mb-0"><strong class="text-muted m-r-5">From :</strong><a class="text-default" href="javascript:void(0);">{{$contac->email}}</a></p>
+                                                                            <p class="mb-0"><strong class="text-muted m-r-5">Name :</strong>{{$contac->name}} </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </h5>
                                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true">×</span>
                                                             </button>
                                                         </div>
                                                         <div class="modal-body">
-                                                            <p>{{$contac->message}}</p>
+
+                                                            <div class="body">
+                                                                <div class="row clearfix">
+                                                                    <div class="col-md-3">
+                                                                        <p class="align-left"><b>Align Left</b></p>
+                                                                        <div class="align-left"><p>{{$contac->message}}</p></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>

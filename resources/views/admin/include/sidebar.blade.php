@@ -6,7 +6,7 @@
 
             <div class="navbar-left">
                 <div class="navbar-btn">
-                    <a href="/"><img src="../assets/images/icon.svg" alt="RBsoft Logo" class="img-fluid logo"></a>
+                    <a href="/"><img src="../assets/images/icon.png" alt="RBsoft Logo" class="img-fluid logo"></a>
                     <button type="button" class="btn-toggle-offcanvas"><i class="lnr lnr-menu fa fa-bars"></i></button>
                 </div>
                 <ul class="nav navbar-nav">
@@ -578,7 +578,7 @@
 
     <div id="left-sidebar" class="sidebar">
         <div class="navbar-brand">
-            <a href="index.html"><img src="../assets/images/icon.svg" alt="Oculux Logo" class="img-fluid logo"><span>Oculux</span></a>
+            <a href="index.html"><img src="../assets/images/icon.png" alt="Oculux Logo" class="img-fluid logo"><span>RBsoft</span></a>
             <button type="button" class="btn-toggle-offcanvas btn btn-sm float-right"><i class="lnr lnr-menu icon-close"></i></button>
         </div>
         <div class="sidebar-scroll">
