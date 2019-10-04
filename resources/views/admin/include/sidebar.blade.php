@@ -578,7 +578,7 @@
 
     <div id="left-sidebar" class="sidebar">
         <div class="navbar-brand">
-            <a href="index.html"><img src="../assets/images/icon.png" alt="Oculux Logo" class="img-fluid logo"><span>RBsoft</span></a>
+            <a href="/"><img src="../assets/images/icon.png" alt="Oculux Logo" class="img-fluid logo"><span>RBsoft</span></a>
             <button type="button" class="btn-toggle-offcanvas btn btn-sm float-right"><i class="lnr lnr-menu icon-close"></i></button>
         </div>
         <div class="sidebar-scroll">
@@ -609,11 +609,11 @@
             <nav id="left-sidebar-nav" class="sidebar-nav">
                 <ul id="main-menu" class="metismenu">
                     <li class="header">Main</li>
-                    <li class=""><a href="/home"><i class="icon-home"></i><span>My Page</span></a></li>
-                    <li><a href="/home/users"><i class="icon-speedometer"></i><span>Users</span></a></li>
-                    <li><a href="#"><i class="icon-diamond"></i><span>Crypto Coin</span></a></li>
-                    <li><a href="#"><i class="icon-rocket"></i><span>HRMS System</span></a></li>
-                    <li><a href="#"><i class="icon-badge"></i><span>Job Portal</span></a></li>
+                    <li class=""><a href="/home"><i class="icon-home"></i><span>Deshboard</span></a></li>
+                    <li><a href="/members"><i class="icon-speedometer"></i><span>Members</span></a></li>
+                    <li><a href="/mils"><i class="icon-diamond"></i><span>Mils</span></a></li>
+                    <li><a href="/bazar"><i class="icon-rocket"></i><span>Bazar</span></a></li>
+                    <li><a href="/rent"><i class="icon-badge"></i><span>Rent</span></a></li>
                     <li><a href="/home/contacs"><i class="icon-cursor"></i><span>Contacts</span></a></li>
                     <li class="header">App</li>
                     <li><a href="../documentation/index.html"><i class="icon-doc"></i><span>Documentation</span></a></li>

@@ -28,6 +28,41 @@ class HomeController extends Controller
     {
         return view('admin/home');
     }
+
+// member section
+
+    public function members()
+    {
+        return view('admin.members');
+    }
+
+// mils section
+
+    public function mils()
+    {
+        return view('admin.mils');
+    }
+
+// bazar section
+
+
+    public function bazar()
+    {
+        return view('admin.bazar');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+// contact section
     public function contacs()
     {
         $contacs = DB::table('contacs')->get();

@@ -15,8 +15,21 @@
 <link rel="stylesheet" href="{{ URL::asset('assets/vendor/animate-css/vivify.min.css') }}">
 <link rel="stylesheet" href="{{ URL::asset('assets/vendor/c3/c3.min.css') }}"/>
 <link rel="stylesheet" href="{{ URL::asset('assets/vendor/sweetalert/sweetalert.css') }}"/>
+<link rel="stylesheet" href="{{ URL::asset('assets/vendor/jquery-datatable/dataTables.bootstrap4.min.css') }}">
+<link rel="stylesheet" href="{{ URL::asset('assets/vendor/jquery-datatable/fixedeader/dataTables.fixedcolumns.bootstrap4.min.css') }}">
+<link rel="stylesheet" href="{{ URL::asset('assets/vendor/jquery-datatable/fixedeader/dataTables.fixedheader.bootstrap4.min.css') }}">
 <!-- MAIN CSS -->
 <link rel="stylesheet" href="{{ URL::asset('assets/css/site.min.css') }}">
+<style>
+    td.details-control {
+    background: url('../assets/images/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+    tr.shown td.details-control {
+        background: url('../assets/images/details_close.png') no-repeat center center;
+    }
+</style>
+
 </head>
 <body class="theme-cyan font-montserrat">
 <!-- Page Loader -->

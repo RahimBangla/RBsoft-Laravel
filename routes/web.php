@@ -23,6 +23,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/home/contacs', 'HomeController@contacs');
 
 Route::get('/getcontacs', 'HomeController@getContacs');
+Route::get('/members', 'HomeController@members');
+Route::get('/mils', 'HomeController@mils');
+Route::get('/bazar', 'HomeController@bazar');
 
 
 
