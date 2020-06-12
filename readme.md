@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-# Contibute By Md. Abdur Rahim Sarkar (http://rahimbangla.me)
+# Contibute By Md. Abdur Rahim Sarkar (http://rahimbangla.com)
 
 ## About Laravel
 
@@ -30,7 +30,7 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
 ## Contributing
-### Contibute By Md. Abdur Rahim Sarkar (http://rahimbangla.me)
+### Contibute By Md. Abdur Rahim Sarkar (http://rahimbangla.com)
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
